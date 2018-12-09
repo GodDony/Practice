@@ -55,4 +55,5 @@
     <string name="error_code_1207">User not found</string>
     <string name="error_code_1208">User not found</string>
     <string name="error_code_1209">User not found</string>
+    <string name="term_million">"'%s' million"</string>
 </resources>

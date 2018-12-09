@@ -9,7 +9,7 @@ import com.example.dony.practice.R
 open class BaseActivity : AppCompatActivity() {
 
     /**
-     * 공통 에러 처리
+     * 코인원 API 공통 에러 처리
      */
     fun onCommonError(result: String?, errorCode: String?): Boolean {
         result?.let {
