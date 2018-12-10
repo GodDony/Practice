@@ -5,15 +5,10 @@ class OrderBookModel {
     var errorCode = ""
     var timestamp: Long = 0
     var currency = ""
-    var ask = ArrayList<Ask>()
-    var bid = ArrayList<Bid>()
+    var ask = ArrayList<OrderBookPriceModel>()
+    var bid = ArrayList<OrderBookPriceModel>()
 
-    inner class Ask {
-        var price: Long = 0
-        var qty: Double = 0.0
-    }
-
-    inner class Bid {
+    inner class OrderBookPriceModel {
         var price: Long = 0
         var qty: Double = 0.0
     }

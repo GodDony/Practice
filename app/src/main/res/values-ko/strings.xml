@@ -56,4 +56,15 @@
     <string name="error_code_1208">User not found</string>
     <string name="error_code_1209">User not found</string>
     <string name="term_million">"'%s' 백만"</string>
+    <string name="term_minus">"-'%s'"</string>
+    <string name="activity_order_book_number_of_shares_remaining">매수 잔량</string>
+    <string name="activity_order_book_purchase_order">매수 주문</string>
+    <string name="activity_order_book_current_price">현재가</string>
+    <string name="activity_order_book_previous_day_price">전일가</string>
+    <string name="activity_order_book_day_before_price">전일대비</string>
+    <string name="activity_order_book_high_price">고가</string>
+    <string name="activity_order_book_low_price">저가</string>
+    <string name="activity_order_book_transaction_price">거래대금</string>
+    <string name="activity_order_book_price">가격</string>
+    <string name="activity_order_book_remaining">잔량</string>
 </resources>

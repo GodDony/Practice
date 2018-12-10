@@ -1,4 +1,3 @@
 <resources>
     <string name="transition_name_title" translatable="false">transition_name_title</string>
-    <string name="transition_name_price" translatable="false">transition_name_price</string>
 </resources>
