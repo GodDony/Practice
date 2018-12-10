@@ -27,6 +27,12 @@ object CommonUtils {
      * (거래대금 계산 개념을 몰라서 거래량 * 금액으로 계산)
      */
     fun getTransactionPrice(context: Context, last: Long, volume: Double): String {
-        return String.format(context.getString(R.string.term_million), df.format(last * volume / 1000000))
+        (last * volume).let {
+            return if (1000000 <= it) {
+                String.format(context.getString(R.string.term_million), df.format(it / 1000000))
+            } else {
+                df.format(it)
+            }
+        }
     }
 }
