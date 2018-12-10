@@ -56,7 +56,7 @@
     <string name="error_code_1208">User not found</string>
     <string name="error_code_1209">User not found</string>
     <string name="term_million">"'%s' 백만"</string>
-    <string name="term_minus">"-'%s'"</string>
+    <string name="term_minus">"-%s"</string>
     <string name="activity_order_book_number_of_shares_remaining">매수 잔량</string>
     <string name="activity_order_book_purchase_order">매수 주문</string>
     <string name="activity_order_book_current_price">현재가</string>
