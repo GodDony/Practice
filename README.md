@@ -4,7 +4,9 @@
 보고싶은 코인의 정보를 클릭하면 다음 페이지로 넘어가 매수, 매도 잔량 등 디테일한 정보를 볼 수 있습니다.
 데이터가 수시로 변하기 때문에 각 화면 마다 5초씩 Refresh 기능이 존재 합니다. 
 
+<pre>
 -Kotlin
 -Retrofit2
 -Rxjava
 -Android Architecture Components
+</pre>
