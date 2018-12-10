@@ -23,7 +23,7 @@ class OrderBookListAdapter : RecyclerView.Adapter<SimpleViewHolder>() {
         orderBooks.clear()
 
         if (askItems.size >= 10) {
-            for (i in 0 until 10) {
+            for (i in askItems.size - 10 until askItems.size) {
                 asks.add(askItems[i])
             }
         } else {
@@ -37,7 +37,7 @@ class OrderBookListAdapter : RecyclerView.Adapter<SimpleViewHolder>() {
         } else {
             bids.addAll(bidItems)
         }
-        Collections.sort(asks, OrderBookComparator(false))
+
         orderBooks.addAll(asks)
         orderBooks.addAll(bids)
         notifyDataSetChanged()

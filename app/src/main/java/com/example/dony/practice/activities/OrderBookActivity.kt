@@ -74,8 +74,8 @@ class OrderBookActivity : BaseActivity() {
                                 txt_day_before_price.text = String.format(getString(R.string.term_minus), CommonUtils.getThousandsFormat(before_price))
                             }
                         }
-                        Collections.sort(ask, OrderBookComparator(true))
-                        Collections.sort(bid, OrderBookComparator(false))
+                        Collections.sort(ask, OrderBookComparator())
+                        Collections.sort(bid, OrderBookComparator())
                         (recycler_view.adapter as OrderBookListAdapter).putItems(ask,bid)
                     }
                 })
