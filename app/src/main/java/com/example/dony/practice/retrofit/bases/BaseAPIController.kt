@@ -63,9 +63,9 @@ abstract class BaseAPIController {
     }
 
     /**
-     * MrTimeAPIService 가져오기
+     * APIService 가져오기
      *
-     * @return MrTimeAPIService
+     * @return APIService
      */
     fun getCoinOneService(): APIService {
         return getRetrofitWithGsonConverter(okHttpClient).create(APIService::class.java)

@@ -1,16 +1,12 @@
 package com.example.dony.practice.retrofit
 
 import android.annotation.SuppressLint
-import android.annotation.TargetApi
-import android.os.Build
 import com.example.dony.practice.models.OrderBookModel
 import com.example.dony.practice.models.TickerModel
 import com.example.dony.practice.retrofit.bases.BaseAPIController
-import com.google.gson.JsonObject
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import java.util.*
 
 class ApiController : BaseAPIController() {
 
